@@ -3,14 +3,14 @@ class Vfarm < Formula
   homepage "https://github.com/mikerunch/vfarm"
 
   if OS.mac?
-    url "https://github.com/mikerunch/vfarm/releases/download/v1.0.0/vfarm-macos"
-    sha256 "6ec99d05f30962dcb91112cfff826f34f61fe298e7d335bf9d46576bbb9bd3fe"
+    url "https://github.com/mikerunch/vfarm/releases/download/v1.0.1/vfarm-macos"
+    sha256 "c84f9b207a9c1394761125992efe992171476daa201d71812189f3096ffc807c"
   elsif OS.linux?
-    url "https://github.com/mikerunch/vfarm/releases/download/v1.0.0/vfarm-linux"
+    url "https://github.com/mikerunch/vfarm/releases/download/v1.0.1/vfarm-linux"
     sha256 "LINUX_SHA256_HIER"
   end
 
-  version "1.0.0"
+  version "1.0.1"
 
   def install
     if OS.mac?
